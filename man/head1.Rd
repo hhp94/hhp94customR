@@ -4,12 +4,14 @@
 \alias{head1}
 \title{Print 1:6 Rows and Cols}
 \usage{
-head1(obj, n = 6)
+head1(obj, i = 6, j = 6)
 }
 \arguments{
 \item{obj}{data.frame or matrix}
 
-\item{n}{number of rows and cols}
+\item{i}{rows}
+
+\item{j}{cols}
 }
 \value{
 data.frame or matrix
