@@ -1,5 +1,6 @@
 test_that("head1 works", {
-  d <- head1(mtcars, 2, 3)
-  expect_equal(nrow(d), 2)
-  expect_equal(ncol(d), 3)
+  m <- matrix(rep(NA, times = 10^2), ncol= 10)
+  h <- head1(m)
+  expect_equal(nrow(h), 6)
+  expect_equal(ncol(h), 6)
 })
